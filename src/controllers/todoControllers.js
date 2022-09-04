@@ -31,14 +31,14 @@ let deleteTodo =
     }
 
 //5
-let updateTodos =
+let updateTodo =
 
     function(request, response){
         console.log ("PUT /todos");
-        response.send("from GET /todos")
+        response.send("from PUT /todos")
     }
 
-module.exports = {getTodos, getSingleTodo, createTodo, deleteTodo, updateTodos};
+module.exports = {getTodos, getSingleTodo, createTodo, deleteTodo, updateTodo};
 
 
 
